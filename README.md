@@ -60,13 +60,33 @@ pip install graphsurgeon-xxxxxxxxxx-py2.py3-none-any.whl
 To verify installation, please import tensorrt and uff in python env.
 
 ### Checkpoints:
-
 #### Face Detection
+Download face detection models from [Google Driver](https://drive.google.com/file/d/1amwJw2Oiq2OIocHjjKBnByLy7dqkCFAN/view?usp=sharing).
+
+- glintr100.onnx        --->  ./insightface_func/models/ckpt/antelope/
+- scrfd_10g_bnkps.onnx  --->  ./insightface_func/models/ckpt/antelope/
+- det_10g.onnx          --->  ./insightface_func/new/
 
 #### TTS
+Download TTS models from [[Baidu Driver](https://pan.baidu.com/s/1aizIt1Hg9Xhb1ttCrbzOvQ), Password：```qgpi```]
+
+- 8000.pth.tar                  --->  ./TTS/output/ckpt/biaobei/
+- generator_universal.pth.tar   --->  ./TTS/hifigan/
+- best_model.pt                 --->  ./TTS/transformer/prosody_model/
 
 #### Face Restoration
+[GFPGANv1.4.onnx(324M)](https://drive.google.com/file/d/1yeR0-YuzoEulzZP1NZkhN3KNMfFfH8Rb/view?usp=sharing)
+
+- GFPGANv1.4.onnx                  --->  ./restoration/
 
 #### Lip Models
+[wav2lip.pth(416M)](https://iiitaphyd-my.sharepoint.com/personal/radrabha_m_research_iiit_ac_in/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels%2Fwav2lip%2Epth)
+
+- wav2lip.pth                 --->  ./checkpoints/
 
 
+## Usage
+
+```python
+python gui.py --video ./example.mp4
+```
