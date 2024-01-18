@@ -3,16 +3,14 @@
 ## Installation
 **Clone this repo:**
 ```bash
-git clone https://github.com/neuralchen/SimBeauty_Dev.git
-cd SimBeauty_Dev
+git clone https://github.com/neuralchen/SimHuman.git
+cd SimHuman
 ```
-
-
 
 ## Dependencies
 
 ### Python dependencies
-All dependencies for defining the environment are provided in ```environment.yaml```. We recommend running this repository using Anaconda (you may need to modify environment.yml to install PyTorch that matches your own CUDA version following https://pytorch.org/):
+All dependencies for defining the environment are provided in ```environment.yml```. We recommend running this repository using Anaconda (you may need to modify environment.yml to install PyTorch that matches your own CUDA version following https://pytorch.org/):
 
 ```bash
 conda env create -f environment.yml
