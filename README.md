@@ -61,8 +61,8 @@ To verify installation, please import tensorrt and uff in python env.
 #### Face Detection
 Download face detection models from [Google Driver](https://drive.google.com/file/d/1amwJw2Oiq2OIocHjjKBnByLy7dqkCFAN/view?usp=sharing).
 
-- glintr100.onnx        --->  ./insightface_func/models/ckpt/antelope/
-- scrfd_10g_bnkps.onnx  --->  ./insightface_func/models/ckpt/antelope/
+- glintr100.onnx        --->  ./insightface_func/models/antelope/
+- scrfd_10g_bnkps.onnx  --->  ./insightface_func/models/antelope/
 - det_10g.onnx          --->  ./insightface_func/new/
 
 #### TTS
@@ -78,7 +78,7 @@ Download TTS models from [[Baidu Driver](https://pan.baidu.com/s/1aizIt1Hg9Xhb1t
 - GFPGANv1.4.onnx                  --->  ./restoration/
 
 #### Lip Models
-[wav2lip.pth(416M)](https://iiitaphyd-my.sharepoint.com/personal/radrabha_m_research_iiit_ac_in/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fradrabha%5Fm%5Fresearch%5Fiiit%5Fac%5Fin%2FDocuments%2FWav2Lip%5FModels%2Fwav2lip%2Epth)
+[wav2lip.pth(416M)](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/radrabha_m_research_iiit_ac_in/Eb3LEzbfuKlJiR600lQWRxgBIY27JZg80f7V9jtMfbNDaQ?e=TBFBVW)
 
 - wav2lip.pth                 --->  ./checkpoints/
 
@@ -86,5 +86,5 @@ Download TTS models from [[Baidu Driver](https://pan.baidu.com/s/1aizIt1Hg9Xhb1t
 ## Usage
 
 ```python
-python gui.py --video ./example.mp4
+python gui.py --video ./example_videos/example.mp4
 ```
