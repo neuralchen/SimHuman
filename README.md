@@ -86,5 +86,5 @@ Download TTS models from [[Baidu Driver](https://pan.baidu.com/s/1aizIt1Hg9Xhb1t
 ## Usage
 
 ```python
-python gui.py --video ./example.mp4
+python gui.py --video ./example_videos/example.mp4
 ```
